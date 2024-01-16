@@ -1,9 +1,24 @@
+import Hero from  './components/Hero'
+
 function App() {
   return (
     <main>
-       <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
+       <section id = "/"  className='px-10'>
+        <Hero/>
+       </section>
+       <section id='about'>
+
+       </section>
+       <section id="skills">
+
+       </section>
+       <section id="projects">
+
+       </section>
+       <section id="contacts">
+
+       </section>
+
     </main>
   )
 }
