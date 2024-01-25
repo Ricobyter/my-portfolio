@@ -1,5 +1,5 @@
 /** @type {import('tailwindcss').Config} */
-export default {
+export default  {
   content: [
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
@@ -19,8 +19,8 @@ export default {
       'gray-light': '#d3dce6',
     },
   plugins: [],
-  darkMode: 'class',
-}
+
+};
 
 
 // /** @type {import('tailwindcss').Config} */
