@@ -1,4 +1,5 @@
 import About from './components/About'
+import Contact from './components/Contact'
 import Hero from  './components/Hero'
 import Skills from './components/Skills'
 
@@ -11,14 +12,14 @@ function App() {
        <section id='about' className='w-[100vw] flex justify-center items-center'>
         <About/>
        </section>
-       <section id="skills" className='w-[100vw]'>
+       <section id="skills" className='w-[100vw] flex justify-center items-center'>
        <Skills/>
        </section>
        <section id="projects">
 
        </section>
-       <section id="contacts">
-
+       <section id="contacts" className='w-[100vw] flex justify-center items-center'>
+        <Contact/>
        </section>
 
     </main>

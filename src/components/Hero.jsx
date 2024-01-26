@@ -4,6 +4,14 @@ import Nav from './Nav'
 import gmail from '../assets/images/gmail.svg'
 import linkedn from '../assets/images/linkedn.svg'
 import github from '../assets/images/github.svg'
+import Next from '../assets/images/nextjs.png'
+import Reactimg from '../assets/images/react.png'
+import Tailwind from '../assets/images/tailwind.png'
+import NodeJs from '../assets/images/nodejs.svg'
+import MongoDB from '../assets/images/mongodb.svg'
+import Firebase from '../assets/images/firebase.svg'
+import Typescript from '../assets/images/typescript.png'
+
 
 
 function hero() {
@@ -20,26 +28,40 @@ function hero() {
             <p className='text-2xl'>I am a passionate MERN Developer from India who loves to explore new things.</p>
             <div className='flex gap-5  items-center mt-3'>
               <div className='flex gap-3 mt-2 h-[30px] justify-center items-center'>
-              <a href="https://www.linkedin.com/in/dhruv-anand-singh-b1b60426b/">
-                <img src={linkedn} alt="linkedn" className='h-[30px]' />
-              </a>
+                <a href="https://www.linkedin.com/in/dhruv-anand-singh-b1b60426b/">
+                  <img src={linkedn} alt="linkedn" className='h-[30px]' />
+                </a>
 
-              <img src={gmail} alt="gmail" className='h-[30px]' />
+                <img src={gmail} alt="gmail" className='h-[30px]' />
 
-              <a href="https://github.com/Ricobyter">
-                <img src={github} alt="github" className='h-[30px]' />
-              </a>
-              <div className='ml-5'>
-                <a href="Resume.pdf" download='Resume.pdf'><button className='bg-blue-700 py-1 px-2 rounded-md text-xl'>Resume</button></a>
-                
+                <a href="https://github.com/Ricobyter">
+                  <img src={github} alt="github" className='h-[30px]' />
+                </a>
+                <div className='ml-5'>
+                  <a href="Resume.pdf" download='Resume.pdf'><button className='bg-blue-700 py-1 px-2 rounded-md text-xl'>Resume</button></a>
+
+                </div>
               </div>
-</div>
+              
 
             </div>
+            <div className='text-white flex mt-[3rem] justify-between items-center'>
+                <h1 className='text-xl font-semibold'>Tech Stack</h1>
+                <p> | </p>
+                <div className='ml-3 flex gap-3'>
+                  <img src={Next} alt="" className='h-[50px]'/>
+                  <img src={Reactimg} alt="" className='h-[40px]'/>
+                  <img src={Tailwind} alt="" className='h-[40px]'/>
+                  <img src={MongoDB} alt="" className='h-[40px]'/>
+                  <img src={Typescript} alt="" className='h-[40px]'/>
+                  <img src={NodeJs} alt="" className='h-[40px]'/>
+                  <img src={Firebase} alt="" className='h-[40px]'/>
+                </div>
+
+            </div>
+          
 
           </div>
-
-
 
         </div>
         <div className="w-1/5 ml-0">

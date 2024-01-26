@@ -1,5 +1,5 @@
 import React from 'react'
-import pokemon from '../assets/images/lucario.gif'
+import hello from '../assets/images/robot.gif'
 
 function About() {
   return (
@@ -7,7 +7,7 @@ function About() {
       <h1 className='text-3xl text-center'>About Me</h1>
       <div className='flex gap-4 h-full justify-center items-center'>
         <div className='w-2/5'>
-       <img src={pokemon} alt="" className='h-[300px]'/>
+       <img src={hello} alt="" className='h-[500px] '/>
         </div>
         <div className='w-3/5'>
         <p className='text-2xl'>
