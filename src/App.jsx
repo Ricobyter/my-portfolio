@@ -5,7 +5,7 @@ import Skills from './components/Skills'
 
 function App() {
   return (
-    <main className='bg-[#0d1117]'>
+    <main className='bg-[#0d1117] font-Poppins'>
        <section id = "/"  className='w-[100vw] flex justify-center items-center'>
         <Hero/>
        </section>

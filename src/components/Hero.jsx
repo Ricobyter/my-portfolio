@@ -16,7 +16,7 @@ import Typescript from '../assets/images/typescript.png'
 
 function hero() {
   return (
-    <div className='min-h-screen w-[1100px]  text-white'>
+    <div className='min-h-screen w-[1100px]  text-white '>
       <div>
         <Nav />
       </div>
@@ -24,7 +24,7 @@ function hero() {
       <div className='flex gap-2 justify-around items-center h-[90vh]'>
         <div className='w-4/5 flex justify-center items-center '>
           <div className='w-3/5'>
-            <h1 className='text-3xl font-semibold mb-1'>Hi! My name is <span className='bg-gradient-to-r from-[#ff49db] to-[#7e5bef] bg-clip-text text-transparent'>Dhruv Anand Singh</span></h1>
+            <h1 className='text-3xl font-semibold mb-1 font-montserrat'>Hi! My name is <span className='bg-gradient-to-r from-[#ff49db] to-[#7e5bef] bg-clip-text text-transparent'>Dhruv Anand Singh</span></h1>
             <p className='text-2xl'>I am a passionate MERN Developer from India who loves to explore new things.</p>
             <div className='flex gap-5  items-center mt-3'>
               <div className='flex gap-3 mt-2 h-[30px] justify-center items-center'>

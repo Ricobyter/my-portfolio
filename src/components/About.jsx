@@ -10,7 +10,7 @@ function About() {
        <img src={hello} alt="" className='h-[500px] '/>
         </div>
         <div className='w-3/5'>
-        <p className='text-2xl'>
+        <p className='text-2xl '>
           Hey there! I'm Dhruv Anand Singh. You can also call me <span className='text-blue-500'>Rico</span>. I'm just your friendly neighborhood <span className='text-pink-600'>MERN</span> Stack Developer. 
           I get a kick out of building awesome web apps. When I'm not in coding mode, you might find me hustling on the <span className='text-red-600'>badminton</span> court or just chilling with my favorite tunes .
           <br />

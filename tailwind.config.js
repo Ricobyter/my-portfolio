@@ -4,11 +4,19 @@ export default  {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
+ 
   theme: {
-    extend: {},
+    extend: {
+      fontFamily:{
+        Poppins: [ 'Poppins', 'sans-serif'],
+        montserrat: ['Montserrat', 'sans-serif'],
+        
+
+      }
+    },
   },
   colors: {
-      'blue': '#1fb6ff',
+      'blues': '#1fb6ff',
       'purple': '#7e5bef',
       'pink': '#ff49db',
       'orange': '#ff7849',

@@ -14,7 +14,7 @@ function Contact() {
     emailjs.sendForm('service_cpeiaiv', 'template_1oop11r', form.current, '8bzCTOWR7dwKClKgd')
       .then((result) => {
           console.log(result.text);
-          toast('🦄 Wow so easy!', {
+          toast('Message successfully sent', {
             position: "top-right",
             autoClose: 5000,
             hideProgressBar: false,
@@ -34,17 +34,17 @@ function Contact() {
 
   return (
     <div className=' mt-20 text-white w-[850px] h-[95vw]'>
-      <h1 className='text-3xl text-center'>Connect With Me</h1>
+      <h1 className='text-3xl text-center font-montserrat'>Connect With<span className='text-red-600'> Me</span> </h1>
       <div className='mt-20 flex flex-row justify-between'>
         <div>
         <form ref={form} onSubmit={sendEmail} className='flex flex-col w-[500px]'>
       <label>Name</label>
-      <input type="text" name="user_name" className='rounded-lg mb-3 py-1 px-2 outline-none'/>
+      <input type="text" name="user_name" className='rounded-lg mb-3 py-1 px-2 outline-none text-black'/>
       <label>Email</label>
-      <input type="email" name="user_email" className='rounded-lg mb-3 py-1 px-2 outline-none' />
+      <input type="email" name="user_email" className='rounded-lg mb-3 py-1 px-2 outline-none text-black' />
       <label>Message</label>
-      <textarea name="message" className='h-[200px] rounded-lg py-1 px-2 outline-none mb-2'/>
-      <input type="submit" value="Send" className='bg-red-400 text-white rounded-lg py-1 '/>
+      <textarea name="message" className='h-[200px] rounded-lg py-1 px-2 outline-none mb-2 text-black'/>
+      <input type="submit" value="Send" className='bg-red-400 text-white rounded-lg py-1 cursor-pointer'/>
     </form>
 
         </div>
