@@ -18,9 +18,11 @@ import Express from '../assets/images/express.png'
 import VsCode from '../assets/images/vscode.png'
 import Jupyter from '../assets/images/jupyter.png'
 import Eclipse from '../assets/images/eclipse.png'
+import Vercel from '../assets/images/vercelr.png'
 import Figma from '../assets/images/figma.svg'
 import Github from '../assets/images/github.svg'
 import Git from '../assets/images/git.svg'
+import Netlify from '../assets/images/netlify.svg'
 
 
 function Skills() {
@@ -86,7 +88,7 @@ function Skills() {
           </Tab>
           <Tab label="Backend">
             <div className="grid-cols-3 grid px-10">
-              <div className='border-b-4 w-[200px] bg-[#111826] mt-4 h-[250px] shadow-sm border-indigo-600 rounded-lg flex flex-col justify-center items-center'>
+              <div className='border-b-4 w-[200px] bg-[#111826] mt-4 h-[250px] shadow-sm border-[#64bc64] rounded-lg flex flex-col justify-center items-center'>
                 <img src={MongoDB} alt="" height={250} />
                 <h1 className='mt-2 text-xl font-semibold'>MONGODB</h1>
               </div>
@@ -96,7 +98,7 @@ function Skills() {
                 <h1 className='mt-2 text-xl font-semibold'>Firebase</h1>
               </div>
               
-              <div className='border-b-4 w-[200px] bg-[#111826] mt-4 h-[250px] shadow-sm border-indigo-600 rounded-lg flex flex-col justify-center items-center'>
+              <div className='border-b-4 w-[200px] bg-[#111826] mt-4 h-[250px] shadow-sm border-[#4aa950] rounded-lg flex flex-col justify-center items-center'>
                 <img src={NodeJs} alt="" height={250} />
                 <h1 className='mt-2 text-xl font-semibold'>NodeJS</h1>
               </div>
@@ -121,32 +123,42 @@ function Skills() {
           </Tab>
           <Tab label="Tools">
             <div className="grid-cols-3 grid px-10">
-            <div className='border-b-4 w-[200px] bg-[#111826] mt-4 h-[250px] shadow-sm border-indigo-600 rounded-lg flex flex-col justify-center items-center'>
+            <div className='border-b-4 w-[200px] bg-[#111826] mt-4 h-[250px] shadow-sm border-[#f8541c] rounded-lg flex flex-col justify-center items-center'>
                 <img src={Git} alt="" height={250} />
                 <h1 className='mt-2 text-xl font-semibold'>Git</h1>
 
               </div>
-              <div className='border-b-4 w-[200px] bg-[#111826] mt-4 h-[250px] shadow-sm border-indigo-600 rounded-lg flex flex-col justify-center items-center'>
+              <div className='border-b-4 w-[200px] bg-[#111826] mt-4 h-[250px] shadow-sm border-[#4cd4e4] rounded-lg flex flex-col justify-center items-center'>
                 <img src={Github} alt="" height={250} />
                 <h1 className='mt-2 text-xl font-semibold'>Github</h1>
 
               </div>
-              <div className='border-b-4 w-[200px] bg-[#111826] mt-4 h-[250px] shadow-sm border-indigo-600 rounded-lg flex flex-col justify-center items-center'>
+              <div className='border-b-4 w-[200px] bg-[#111826] mt-4 h-[250px] shadow-sm border-[#148cdc] rounded-lg flex flex-col justify-center items-center'>
                 <img src={VsCode} alt="" height={250} />
                 <h1 className='mt-2 text-xl font-semibold'>VsCode</h1>
 
               </div>
-              <div className='border-b-4 w-[200px] bg-[#111826] mt-4 h-[250px] shadow-sm border-indigo-600 rounded-lg flex flex-col justify-center items-center'>
+            <div className='border-b-4 w-[200px] bg-[#111826] mt-4 h-[250px] shadow-sm border-[#f49c04] rounded-lg flex flex-col justify-center items-center'>
                 <img src={Jupyter} alt="" height={250} />
                 <h1 className='mt-2 text-xl font-semibold'>Jupyter Notebook</h1>
 
               </div>
-              <div className='border-b-4 w-[200px] bg-[#111826] mt-4 h-[250px] shadow-sm border-indigo-600 rounded-lg flex flex-col justify-center items-center'>
+              <div className='border-b-4 w-[200px] bg-[#111826] mt-4 h-[250px] shadow-sm border-[#f4cc84] rounded-lg flex flex-col justify-center items-center'>
                 <img src={Eclipse} alt="" height={250} />
                 <h1 className='mt-2 text-xl font-semibold'>EclipseIDE</h1>
 
               </div>
-              <div className='border-b-4 w-[200px] bg-[#111826] mt-4 h-[250px] shadow-sm border-indigo-600 rounded-lg flex flex-col justify-center items-center'>
+              <div className='border-b-4 w-[200px] bg-[#111826] mt-4 h-[250px] shadow-sm border-[#d8d8d8] rounded-lg flex flex-col justify-center items-center'>
+                <img src={Vercel} alt="" height={250} />
+                <h1 className='mt-2 text-xl font-semibold'>Vercel</h1>
+
+              </div>
+              <div className='border-b-4 w-[200px] bg-[#111826] mt-4 h-[250px] shadow-sm border-[#34b0bc] rounded-lg flex flex-col justify-center items-center'>
+                <img src={Netlify} alt="" height={250} />
+                <h1 className='mt-2 text-xl font-semibold'>Netlify</h1>
+
+              </div>
+              <div className='border-b-4 w-[200px] bg-[#111826] mt-4 h-[250px] shadow-sm border-[#e44c1c] rounded-lg flex flex-col justify-center items-center'>
                 <img src={Figma} alt="" height={250} />
                 <h1 className='mt-2 text-xl font-semibold'>Figma</h1>
 
