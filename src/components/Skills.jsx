@@ -14,7 +14,13 @@ import Typescript from '../assets/images/typescript.png'
 import Tailwind from '../assets/images/tailwind.png'
 import PHP from '../assets/images/php.png'
 import NextJS from '../assets/images/nextjs.png'
-
+import Express from '../assets/images/express.png'
+import VsCode from '../assets/images/vscode.png'
+import Jupyter from '../assets/images/jupyter.png'
+import Eclipse from '../assets/images/eclipse.png'
+import Figma from '../assets/images/figma.svg'
+import Github from '../assets/images/github.svg'
+import Git from '../assets/images/git.svg'
 
 
 function Skills() {
@@ -94,6 +100,11 @@ function Skills() {
                 <img src={NodeJs} alt="" height={250} />
                 <h1 className='mt-2 text-xl font-semibold'>NodeJS</h1>
               </div>
+
+              <div className='border-b-4 w-[200px] bg-[#111826] mt-4 h-[250px] shadow-sm border-indigo-600 rounded-lg flex flex-col justify-center items-center'>
+                <img src={Express} alt="" height={250} />
+                <h1 className='mt-2 text-xl font-semibold'>Express</h1>
+              </div>
               
 
               <div className='border-b-4 w-[200px] bg-[#111826] mt-4 h-[250px] shadow-sm border-indigo-600 rounded-lg flex flex-col justify-center items-center'>
@@ -109,19 +120,38 @@ function Skills() {
             </div>
           </Tab>
           <Tab label="Tools">
-            <div className="py-4">
-              <h2 className="text-lg font-medium mb-2">Tab 3 Content</h2>
-              <p className="text-gray-700">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime mollitia, molestiae
-                quas vel sint commodi repudiandae consequuntur voluptatum laborum numquam blanditiis
-                harum quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque rerum!
-                Provident similique accusantium nemo autem. Veritatis obcaecati tenetur iure eius
-                earum ut molestias architecto voluptate aliquam nihil, eveniet aliquid culpa officia
-                aut! Impedit sit sunt quaerat, odit, tenetur error, harum nesciunt ipsum debitis quas
-                aliquid. Reprehenderit, quia. Quo neque error repudiandae fuga? Ipsa laudantium
-                molestias eos sapiente officiis modi at sunt excepturi expedita sint? Sed quibusdam
-                recusandae alias error harum maxime adipisci amet laborum.
-              </p>
+            <div className="grid-cols-3 grid px-10">
+            <div className='border-b-4 w-[200px] bg-[#111826] mt-4 h-[250px] shadow-sm border-indigo-600 rounded-lg flex flex-col justify-center items-center'>
+                <img src={Git} alt="" height={250} />
+                <h1 className='mt-2 text-xl font-semibold'>Git</h1>
+
+              </div>
+              <div className='border-b-4 w-[200px] bg-[#111826] mt-4 h-[250px] shadow-sm border-indigo-600 rounded-lg flex flex-col justify-center items-center'>
+                <img src={Github} alt="" height={250} />
+                <h1 className='mt-2 text-xl font-semibold'>Github</h1>
+
+              </div>
+              <div className='border-b-4 w-[200px] bg-[#111826] mt-4 h-[250px] shadow-sm border-indigo-600 rounded-lg flex flex-col justify-center items-center'>
+                <img src={VsCode} alt="" height={250} />
+                <h1 className='mt-2 text-xl font-semibold'>VsCode</h1>
+
+              </div>
+              <div className='border-b-4 w-[200px] bg-[#111826] mt-4 h-[250px] shadow-sm border-indigo-600 rounded-lg flex flex-col justify-center items-center'>
+                <img src={Jupyter} alt="" height={250} />
+                <h1 className='mt-2 text-xl font-semibold'>Jupyter Notebook</h1>
+
+              </div>
+              <div className='border-b-4 w-[200px] bg-[#111826] mt-4 h-[250px] shadow-sm border-indigo-600 rounded-lg flex flex-col justify-center items-center'>
+                <img src={Eclipse} alt="" height={250} />
+                <h1 className='mt-2 text-xl font-semibold'>EclipseIDE</h1>
+
+              </div>
+              <div className='border-b-4 w-[200px] bg-[#111826] mt-4 h-[250px] shadow-sm border-indigo-600 rounded-lg flex flex-col justify-center items-center'>
+                <img src={Figma} alt="" height={250} />
+                <h1 className='mt-2 text-xl font-semibold'>Figma</h1>
+
+              </div>
+              
             </div>
           </Tab>
         </Tabs>
