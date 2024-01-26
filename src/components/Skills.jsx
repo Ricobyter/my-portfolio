@@ -31,8 +31,8 @@ function Skills() {
       <div>
         <Tabs>
           <Tab label="FrontEnd">
-            <div className='grid-cols-3 grid px-10'>
-              <div className='border-b-4 w-[200px] bg-[#111826] mt-4 h-[250px] shadow-sm border-indigo-600 rounded-lg flex flex-col justify-center items-center'>
+            <div className='grid-cols-3 grid justify-between gap-x-20'>
+              <div className='border-b-4 w-[200px] bg-[#111826] mt-4 h-[250px] shadow-sm border-[#1c9cec] rounded-lg flex flex-col justify-center items-center'>
                 <img src={Typescript} alt="" height={250} />
                 <h1 className='mt-2 text-xl font-semibold'>Typescipt</h1>
 
@@ -87,7 +87,7 @@ function Skills() {
 
           </Tab>
           <Tab label="Backend">
-            <div className="grid-cols-3 grid px-10">
+            <div className="grid-cols-3 grid grid-flow-rows gap-x-20">
               <div className='border-b-4 w-[200px] bg-[#111826] mt-4 h-[250px] shadow-sm border-[#64bc64] rounded-lg flex flex-col justify-center items-center'>
                 <img src={MongoDB} alt="" height={250} />
                 <h1 className='mt-2 text-xl font-semibold'>MONGODB</h1>
@@ -114,7 +114,7 @@ function Skills() {
                 <h1 className='mt-2 text-xl font-semibold'>MySQL</h1>
               </div>
 
-              <div className='border-b-4 w-[200px] bg-[#111826] mt-4 h-[250px] shadow-sm border-indigo-600 rounded-lg flex flex-col justify-center items-center'>
+              <div className='border-b-4 w-[200px] bg-[#111826] mt-4 h-[250px] shadow-sm border-[#b4a4cc] rounded-lg flex flex-col justify-center items-center'>
                 <img src={PHP} alt="" height={250} />
                 <h1 className='mt-2 text-xl font-semibold'>PHP</h1>
               </div>
@@ -122,7 +122,7 @@ function Skills() {
             </div>
           </Tab>
           <Tab label="Tools">
-            <div className="grid-cols-3 grid px-10">
+            <div className="grid-cols-3 grid grid-flow-rows gap-x-20">
             <div className='border-b-4 w-[200px] bg-[#111826] mt-4 h-[250px] shadow-sm border-[#f8541c] rounded-lg flex flex-col justify-center items-center'>
                 <img src={Git} alt="" height={250} />
                 <h1 className='mt-2 text-xl font-semibold'>Git</h1>
