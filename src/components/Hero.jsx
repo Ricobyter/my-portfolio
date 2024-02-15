@@ -64,7 +64,7 @@ function hero() {
           </div>
 
         </div>
-        <div className="w-1/5 mt-[-70px]">
+        <div className="w-1/5">
           <div className="blob bg-[url('src/assets/images/linkednprofile.jpeg')] neon-purple" >
 
           </div>
