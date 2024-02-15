@@ -17,12 +17,12 @@ import Typescript from '../assets/images/typescript.png'
 function hero() {
   return (
     <div className='min-h-screen w-[1100px]  text-white '>
-      <div>
+      <div className='w-full flex justify-center'>
         <Nav />
       </div>
 
-      <div className='flex gap-2 justify-around items-center h-[90vh]'>
-        <div className='w-4/5 flex justify-center items-center '>
+      <div className='flex w-full justify-between items-center h-[90vh]'>
+        <div className='w-4/5 flex items-center '>
           <div className='w-3/5'>
             <h1 className='text-3xl font-semibold mb-1 font-montserrat'>Hi! My name is <span className='bg-gradient-to-r from-[#ff49db] to-[#7e5bef] bg-clip-text text-transparent'>Dhruv Anand Singh</span></h1>
             <p className='text-2xl'>I am a passionate MERN Developer from India who loves to explore new things.</p>
@@ -37,7 +37,7 @@ function hero() {
                 <a href="https://github.com/Ricobyter">
                   <img src={github} alt="github" className='h-[30px]' />
                 </a>
-                <div className='ml-5'>
+                <div className='ml-5 '>
                   <a href="Resume.pdf" download='Resume.pdf'><button className='bg-blue-700 py-1 px-2 rounded-md text-xl'>Resume</button></a>
 
                 </div>
@@ -64,8 +64,8 @@ function hero() {
           </div>
 
         </div>
-        <div className="w-1/5 ml-0">
-          <div className="blob bg-[url('src/assets/images/linkednprofile.jpeg')]" >
+        <div className="w-1/5 mt-[-70px]">
+          <div className="blob bg-[url('src/assets/images/linkednprofile.jpeg')] neon-purple" >
 
           </div>
 

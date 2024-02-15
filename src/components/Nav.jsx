@@ -5,7 +5,7 @@ const Nav = () => {
 
 
 <nav className='flex pt-4 justify-between w-[1200px]'>
-    <h1 className='text-3xl text-blue-600 font-bold'>Rico.dev</h1>
+    <h1 className='text-3xl bg-gradient-to-r from-[#ff49db] to-[#7e5bef] bg-clip-text text-transparent font-bold'>Rico.dev</h1>
 
     <div className='flex gap-10 text-xl'>
         <a href="/" className='hover:text-[#8A2BE2] hover:border-b-2 hover:border-purple-600'>Portfolio</a>
