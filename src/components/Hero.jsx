@@ -18,15 +18,16 @@ function hero() {
   return (
     <div className='min-h-screen w-[1100px]  text-white '>
       <div className='w-full flex justify-between mt-2 lg:mt-4 '>
-        <h1 className='text-3xl '>Rico.dev</h1>
-        <button className='bg-blue-700 text-white px-3 py-2 rounded-xl'>Contact Me</button>
+        <h1 className='text-3xl bg-gradient-to-r from-[#ff49db] to-[#7e5bef] bg-clip-text text-transparent'>Rico.dev</h1>
+        <button className='bg-gradient-to-r from-[#ed5b5b] to-[#410bf1] font-montserrat text-white px-3 py-2 rounded-xl neon-purple
+        '>Contact Me</button>
      
       </div>
 
       <div className='flex w-full justify-between items-center h-[90vh]'>
         <div className='w-4/5 flex items-center '>
           <div className='w-3/5'>
-            <h1 className='text-3xl font-semibold mb-1 font-montserrat'>Hi! My name is <span className='bg-gradient-to-r from-[#ff49db] to-[#7e5bef] bg-clip-text text-transparent'>Dhruv Anand Singh</span></h1>
+            <h1 className='text-3xl font-semibold mb-1 font-montserrat'>Hi! My name is <span className='bg-gradient-to-r from-[#ff49db] to-[#7e5bef] bg-clip-text text-transparent '>Dhruv Anand Singh</span></h1>
             <p className='text-2xl'>I am a passionate MERN Developer from India who loves to explore new things.</p>
             <div className='flex gap-5  items-center mt-3'>
               <div className='flex gap-3 mt-2 h-[30px] justify-center items-center'>
@@ -40,7 +41,7 @@ function hero() {
                   <img src={github} alt="github" className='h-[30px]' />
                 </a>
                 <div className='ml-5 '>
-                  <a href="Resume.pdf" download='Resume.pdf'><button className='bg-gradient-to-r from-[#ff49db] to-[#7e5bef] py-1 px-2 rounded-lg text-xl'>Resume</button></a>
+                  <a href="Resume.pdf" download='Resume.pdf'><button className='bg-gradient-to-r from-[#ff49db] to-[#7e5bef] py-1 px-2 rounded-lg text-xl neon-purple'>Resume</button></a>
 
                 </div>
               </div>
