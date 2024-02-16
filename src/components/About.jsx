@@ -4,13 +4,13 @@ import hello from '../assets/images/robot.gif'
 function About() {
   return (
     <div className='text-white h-[100vh] w-[1100px] '>
-      <div className='flex'>
+      <div className='flex gap-2'>
       <h1 className='text-5xl text-left font-montserrat'>About Me </h1>
-      <div className='bg-white h-[2px] w-[800px]'></div>
+      <div className='border-white border-b-2 w-[800px] opacity-30'></div>
 
       </div>
 
-      <div className='flex gap-4 h-full justify-center items-center'>
+      <div className='flex  h-full items-center justify-center'>
         <div className='w-2/5'>
        <img src={hello} alt="" className='h-[500px] '/>
         </div>
