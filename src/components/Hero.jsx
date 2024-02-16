@@ -17,8 +17,10 @@ import Typescript from '../assets/images/typescript.png'
 function hero() {
   return (
     <div className='min-h-screen w-[1100px]  text-white '>
-      <div className='w-full flex justify-center'>
-        <Nav />
+      <div className='w-full flex justify-between mt-2 lg:mt-4 '>
+        <h1 className='text-3xl '>Rico.dev</h1>
+        <button className='bg-blue-700 text-white px-3 py-2 rounded-xl'>Contact Me</button>
+     
       </div>
 
       <div className='flex w-full justify-between items-center h-[90vh]'>
@@ -38,7 +40,7 @@ function hero() {
                   <img src={github} alt="github" className='h-[30px]' />
                 </a>
                 <div className='ml-5 '>
-                  <a href="Resume.pdf" download='Resume.pdf'><button className='bg-blue-700 py-1 px-2 rounded-md text-xl'>Resume</button></a>
+                  <a href="Resume.pdf" download='Resume.pdf'><button className='bg-gradient-to-r from-[#ff49db] to-[#7e5bef] py-1 px-2 rounded-lg text-xl'>Resume</button></a>
 
                 </div>
               </div>

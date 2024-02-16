@@ -1,11 +1,13 @@
 import About from './components/About'
 import Contact from './components/Contact'
 import Hero from  './components/Hero'
+import Nav from './components/Nav'
 import Skills from './components/Skills'
 
 function App() {
   return (
     <main className='bg-[#0d1117] font-Poppins'>
+       <Nav />
        <section id = "/"  className='w-[100vw] flex justify-center items-center'>
         <Hero/>
        </section>
