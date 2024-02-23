@@ -17,26 +17,26 @@ const Nav = () => {
         spy={true}
         smooth={true}
         to='/'  
-        className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'><BiHomeAlt/></Link>
+        className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center hover:p-[1rem] hover:rounded-full hover:bg-pink-500 hover:text-white'><BiHomeAlt /></Link>
 
         <Link activeClass='active'
         spy={true}
         smooth={true}
         to='about' 
-        className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'><BiUser/></Link>
+        className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center hover:p-[1rem] hover:rounded-full hover:bg-pink-500 hover:text-white'><BiUser/></Link>
 
         <Link activeClass='active'
         spy={true}
         smooth={true}
         to='projects'
 
-        className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'><BsBriefcase/></Link>
+        className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center hover:p-[1rem] hover:rounded-full hover:bg-pink-500 hover:text-white'><BsBriefcase/></Link>
 
         <Link activeClass='active'
         spy={true}
         smooth={true}
         to='contacts' 
-        className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center'><BsChatHeart/></Link>
+        className='cursor-pointer w-[60px] h-[60px] flex items-center justify-center hover:p-[1rem] hover:rounded-full hover:bg-pink-500 hover:text-white'><BsChatHeart/></Link>
         
     </div>
     </div>

@@ -1,7 +1,6 @@
 .active{
-    background-color: aqua;
+    background-image: linear-gradient(to right, rgba(237, 11, 203, 0), rgb(200, 32, 238));
     color: antiquewhite;
     padding: 1rem;
     border-radius: 100%;
-
 }
