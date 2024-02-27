@@ -5,8 +5,10 @@ function About() {
   return (
     <div className='text-white h-[100vh] w-[1100px] '>
       <div className='flex gap-2'>
-      <h1 className='text-5xl text-left font-montserrat'>About Me </h1>
-      <div className='border-white border-b-2 w-[800px] opacity-30'></div>
+        <div className='flex justify-center items-center w-full'>
+      <h1 className='text-5xl font-montserrat text-center'>About Me </h1>
+
+        </div>
 
       </div>
 
