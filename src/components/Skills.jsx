@@ -30,13 +30,12 @@ function Skills() {
     <div>
       <div>
       <div className='flex gap-2 mb-20'>
-      <h1 className='text-5xl text-left font-montserrat text-white'>My Skills </h1>
-      <div className='border-white border-b-2 w-[800px] opacity-30'></div>
+      <h1 className='text-4xl text-center font-montserrat text-white'>My Skills </h1>
 
       </div>
         <Tabs>
           <Tab label="FrontEnd" className= 'w-full'>
-            <div className='grid-cols-3 grid gap-x-40'>
+            <div className='grid-cols-2 md:grid-cols-3 lg:grid-cols-3 grid gap-x-10'>
               <div className='border-b-4 w-[300px] bg-[#111826] mt-4 h-[225px] shadow-sm border-[#1c9cec] rounded-lg flex flex-col justify-center items-center'>
                 <img src={Typescript} alt="" className = 'h-[50px]' />
                 <h1 className='mt-2 text-xl font-semibold'>Typescipt</h1>
@@ -92,7 +91,7 @@ function Skills() {
 
           </Tab>
           <Tab label="Backend">
-            <div className="grid-cols-3 grid grid-flow-rows gap-x-40">
+            <div className='grid-cols-2 md:grid-cols-3 lg:grid-cols-3 grid gap-x-10'>
               <div className='border-b-4 w-[300px] bg-[#111826] mt-4 h-[225px] shadow-sm border-[#64bc64] rounded-lg flex flex-col justify-center items-center'>
                 <img src={MongoDB} alt="" className = 'h-[50px]' />
                 <h1 className='mt-2 text-xl font-semibold'>MONGODB</h1>
@@ -127,7 +126,7 @@ function Skills() {
             </div>
           </Tab>
           <Tab label="Tools">
-            <div className="grid-cols-3 grid grid-flow-rows gap-x-36">
+            <div className='grid-cols-2 md:grid-cols-2 lg:grid-cols-3 grid gap-x-10'>
             <div className='border-b-4 w-[300px] bg-[#111826] mt-4 h-[225px] shadow-sm border-[#f8541c] rounded-lg flex flex-col justify-center items-center'>
                 <img src={Git} alt="" className = 'h-[50px]' />
                 <h1 className='mt-2 text-xl font-semibold'>Git</h1>

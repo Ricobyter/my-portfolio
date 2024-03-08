@@ -1,5 +1,5 @@
 .active{
-    background-image: linear-gradient(to right, rgba(237, 11, 203, 0), rgb(200, 32, 238));
+    background-image: linear-gradient(to right, #103CE7, rgb(200, 32, 238));
     color: antiquewhite;
     padding: 1rem;
     border-radius: 100%;

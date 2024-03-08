@@ -16,10 +16,11 @@ function App() {
        {/* <section id='about' className='w-[100vw] flex justify-center items-center'>
         <About/>
        </section>
+       */}
        <section id="skills" className='w-[100vw] flex justify-center items-center'>
        <Skills/>
        </section>
-       <section id="projects" className='w-[100vw] flex justify-center items-center'>
+      {/* <section id="projects" className='w-[100vw] flex justify-center items-center'>
         <Projects />
 
        </section>
