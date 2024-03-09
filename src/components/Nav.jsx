@@ -9,7 +9,7 @@ const Nav = () => {
     return (
 
 
-<nav className='fixed bottom-2 lg:bottom-8 w-full overflow-hidden z-50 text-white/50'>
+<nav className='fixed bottom-2 lg:bottom-6 w-full overflow-hidden z-50 text-white/50'>
     <div className='container mx-auto'>
 
     <div className='flex w-full bg-black/20 h-[66px] backdrop-blur-2xl rounded-full max-w-[450px] mx-auto justify-between  text-2xl px-5'>

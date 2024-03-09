@@ -13,18 +13,17 @@ function App() {
        <section id = "/"  className='w-[100vw] flex justify-center items-center'>
         <Hero/>
        </section>
-        <section id='about' className='w-[100vw] flex justify-center items-center'>
+        <section id='about' className='w-[100vw] h-[100vh] flex justify-center items-center'>
         <About/>
        </section>
        
        <section id="skills" className='w-[100vw] flex justify-center items-center'>
        <Skills/>
        </section>
-      {/* <section id="projects" className='w-[100vw] flex justify-center items-center'>
+       <section id="projects" className='w-[100vw] h-[100vh] flex justify-center items-center'>
         <Projects />
-
-       </section>
-       <section id="contacts" className='w-[100vw] flex justify-center items-center'>
+       </section> 
+      {/* <section id="contacts" className='w-[100vw] flex justify-center items-center'>
         <Contact/>
        </section> */}
 

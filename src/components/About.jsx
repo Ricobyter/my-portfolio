@@ -4,7 +4,7 @@ import profileimg from '../assets/images/profileimg.jpg'
 
 function About() {
   return (
-    <div className='lg:w-[1100px] w-[85vw] py-20 text-white'>
+    <div className='lg:w-[1100px] w-[85vw] text-white'>
       <div className='flex lg:flex  gap-10 '>
         <div className='w-[50vw]'>
           <img src={profileimg} alt="" className='bg-center w-full  object-cover h-[350px]  rounded-lg border-2 neon-purple' />
@@ -13,7 +13,7 @@ function About() {
           <h1 className='text-5xl  mb-8'>About Me</h1>
           <div className='tracking-wide leading-relaxed'>
             <p className='mb-2'>
-              I am a Sophomore year CSE student from from IIITDM Jabalpur. I hail from the religious capital of India, Varanasi.
+              I am a Sophomore year CSE student from IIITDM Jabalpur. I hail from the religious capital of India, Varanasi.
             </p>
             <p className='mb-2'>
               I am a passionate developer who loves to code and learn new technologies. I am a quick learner and a team player. I am always open to new ideas and love to work on new projects.
@@ -23,7 +23,7 @@ function About() {
             </p>
             <div className='mt-3'>
 
-              <button className='rounded-lg px-2 py-1 text-md border-2 capitalize border-purple-600'>Download CV</button>
+              <button className='rounded-xl px-2 py-1 text-md border-2 capitalize border-purple-600'>Download CV</button>
             </div>
           </div>
         </div>
@@ -44,11 +44,11 @@ function About() {
         <div>
           <div className='flex justify-between mb-1 text-white'>
 
-            <p className='capitalize'>Web Development</p>
-            <p className='text-gray-100'>85%</p>
+            <p className='capitalize'>Front End </p>
+            <p className='text-gray-100'>90%</p>
           </div>
           <div className='bg-gray-700 w-[400px] h-[4px] border-1 rounded-lg my-3'>
-            <div className='bg-purple-600 h-full w-[69%]'></div>
+            <div className='bg-purple-600 h-full w-[90%]'></div>
           </div>
         </div>
       </div>
@@ -66,11 +66,11 @@ function About() {
         <div>
           <div className='flex justify-between mb-1 text-white'>
 
-            <p className='capitalize'>Fun Loving</p>
-            <p className='text-gray-100'>90%</p>
+            <p className='capitalize'>Back End</p>
+            <p className='text-gray-100'>70%</p>
           </div>
           <div className='bg-gray-700 w-[400px] h-[4px] border-1 rounded-lg my-3'>
-            <div className='bg-purple-600 h-full w-[90%] rounded-lg border-1'></div>
+            <div className='bg-purple-600 h-full w-[70%] rounded-lg border-1'></div>
           </div>
         </div>
       </div>
