@@ -15,14 +15,14 @@ import { useTypewriter, Cursor } from 'react-simple-typewriter'
 
 
 
-function hero() {
+export default function Hero() {
 
   const [text] = useTypewriter({
     words: ['Student', 'MERN Developer', 'Tech Enthusiast'],
     loop: {},
   })
   return (
-    <div className='min-h-screen w-[90vw] lg:w-[1100px]  text-white '>
+    <div className='min-h-screen w-[90vw] lg:w-[1100px] tracking-wider text-white '>
       <div className='flex flex-col gap-2'>
 
       
@@ -36,9 +36,9 @@ function hero() {
       <div className=' h-[90vh] flex items-center justify-center'>
         <div className=''>
         <div className='flex flex-col lg:flex-row w-full  justify-center lg:pt-0  max-lg:h-[70vh]  items-center gap-16 md:gap-0'>
-        <div className='w-[80vw] justify-center lg:justify-start lg:w-[75%] flex flex-row items-center'>
-          <div className=' w-full lg:w-3/5'>
-            <h1 className='text-3xl md:text-3xl lg:text-4xl font-semibold mb-1 font-montserrat'>Hello! My name is<span className='bg-gradient-to-l from-[#ff49db] to-purple-500 bg-clip-text text-transparent '> Dhruv Anand Singh. </span>
+        <div className='w-[85vw] justify-center lg:justify-start lg:w-[75%] flex flex-row '>
+          <div className=' w-full lg:w-4/5'>
+            <h1 className='text-2xl md:text-2xl lg:text-3xl font-semibold mb-1 font-montserrat'>Hello! It's me <span className='bg-gradient-to-l from-[#ff49db] to-purple-500 bg-clip-text text-transparent '> Dhruv Anand Singh. </span>
             </h1>
             <span className=' text-3xl md:text-3xl lg:text-4xl font-semibold mb-1 font-montserrat'>
               <h1>
@@ -66,28 +66,13 @@ function hero() {
                   <img src={github} alt="github" className='h-[30px]' />
                 </a>
                 <div className='ml-5 '>
-                  <a href="Resume.pdf" download='Resume.pdf'><button className='bg-gradient-to-r from-[#6157ff] to-[#EE49FD] py-1 px-2 rounded-lg text-xl neon-purple hover:scale-110 '>Resume</button></a>
+                  <a href="Resume.pdf" download='Resume.pdf'><button className='bg-gradient-to-r from-[#6157ff] to-[#EE49FD] py-1 px-2 rounded-lg text-xl neon-purple hover:scale-110 duration-150 ease-in-out'>Resume</button></a>
 
                 </div>
               </div> 
               
 
              </div> 
-            {/* <div className='text-white flex mt-[3rem] justify-between items-center'>
-                <h1 className=' text-sm lg:text-xl font-semibold'>Tech Stack</h1>
-                <p> | </p>
-                <div className='ml-3 flex gap-3'>
-                  <img src={Next} alt="" className='h-[30px] lg:h-[50px]'/>
-                  <img src={Reactimg} alt="" className='h-[30px] lg:h-[40px]'/>
-                  <img src={Tailwind} alt="" className='h-[30px] lg:h-[40px]'/>
-                  <img src={MongoDB} alt="" className='h-[30px] lg:h-[40px]'/>
-                  <img src={Typescript} alt="" className='h-[30px] lg:h-[40px]'/>
-                  <img src={NodeJs} alt="" className='h-[30px] lg:h-[40px]'/>
-                  <img src={Firebase} alt="" className='h-[30px] lg:h-[40px]'/>
-                </div>
-
-            </div> */}
-          
 
           </div>
 
@@ -125,4 +110,3 @@ function hero() {
   )
 }
 
-export default hero

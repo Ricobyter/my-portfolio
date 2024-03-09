@@ -1,33 +1,82 @@
 import React from 'react'
 import hello from '../assets/images/robot.gif'
+import profileimg from '../assets/images/profileimg.jpg'
 
 function About() {
   return (
-    <div className='text-white h-[100vh] w-[1100px] '>
-      <div className='flex gap-2'>
-        <div className='flex justify-center items-center w-full'>
-      <h1 className='text-5xl font-montserrat text-center'>About Me </h1>
-
+    <div className='lg:w-[1100px] w-[85vw] py-20 text-white'>
+      <div className='flex lg:flex  gap-10 '>
+        <div className='w-[50vw]'>
+          <img src={profileimg} alt="" className='bg-center w-full  object-cover h-[350px]  rounded-lg border-2 neon-purple' />
         </div>
+        <div className=' '>
+          <h1 className='text-5xl  mb-8'>About Me</h1>
+          <div className='tracking-wide leading-relaxed'>
+            <p className='mb-2'>
+              I am a Sophomore year CSE student from from IIITDM Jabalpur. I hail from the religious capital of India, Varanasi.
+            </p>
+            <p className='mb-2'>
+              I am a passionate developer who loves to code and learn new technologies. I am a quick learner and a team player. I am always open to new ideas and love to work on new projects.
+            </p>
+            <p >
+              Coding isn't just a profession for me; it's a canvas where I blend logic with creativity to craft solutions. Whether it's tinkering with front-end designs or diving deep into back-end algorithms, every line of code I write is a step towards innovation and problem-solving.
+            </p>
+            <div className='mt-3'>
+
+              <button className='rounded-lg px-2 py-1 text-md border-2 capitalize border-purple-600'>Download CV</button>
+            </div>
+          </div>
+        </div>
+
 
       </div>
+      <div className='w-full flex flex-grow justify-between mt-6'>
+        <div>
+          <div className='flex flex-grow justify-between mb-1 text-white'>
 
-      <div className='flex  h-full items-center justify-center'>
-        <div className='w-2/5'>
-       <img src={hello} alt="" className='h-[500px] '/>
+            <p className='capitalize'>Hard Work</p>
+            <p className='text-gray-100'>75%</p>
+          </div>
+          <div className='bg-gray-700 w-[400px] h-[4px] border-1 rounded-lg my-3'>
+            <div className='bg-purple-600 h-full w-[75%]'></div>
+          </div>
         </div>
-        <div className='w-3/5'>
-        <p className='text-2xl '>
-          Hey there! I'm Dhruv Anand Singh. You can also call me <span className='text-blue-500'>Rico</span>. I'm just your friendly neighborhood <span className='text-pink-600'>MERN</span> Stack Developer. 
-          I get a kick out of building awesome web apps. When I'm not in coding mode, you might find me hustling on the <span className='text-red-600'>badminton</span> court or just chilling with my favorite tunes .
-          <br />
+        <div>
+          <div className='flex justify-between mb-1 text-white'>
 
-I'm an absolute <span className='text-green-500'>Pokemon </span>geek! The Pokémon world is like my escape pod. Let's team up, bring some cool ideas to life, and enjoy the journey together. Can't wait to chat and create something <span className='text-orange-600'>amazing!</span> 🌟🎸
-         </p>
+            <p className='capitalize'>Web Development</p>
+            <p className='text-gray-100'>85%</p>
+          </div>
+          <div className='bg-gray-700 w-[400px] h-[4px] border-1 rounded-lg my-3'>
+            <div className='bg-purple-600 h-full w-[69%]'></div>
+          </div>
         </div>
-
       </div>
-    </div>
+      <div className='w-full flex flex-grow justify-between'>
+        <div>
+          <div className='flex justify-between mb-1 text-white'>
+
+            <p className='capitalize'>Creativity</p>
+            <p className='text-gray-100'>79%</p>
+          </div>
+          <div className='bg-gray-700 w-[400px] h-[4px] border-1 rounded-lg my-3'>
+            <div className='bg-purple-600 h-full w-[79%]'></div>
+          </div>
+        </div>
+        <div>
+          <div className='flex justify-between mb-1 text-white'>
+
+            <p className='capitalize'>Fun Loving</p>
+            <p className='text-gray-100'>90%</p>
+          </div>
+          <div className='bg-gray-700 w-[400px] h-[4px] border-1 rounded-lg my-3'>
+            <div className='bg-purple-600 h-full w-[90%] rounded-lg border-1'></div>
+          </div>
+        </div>
+      </div>
+
+
+    </div >
   )
 }
 
