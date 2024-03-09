@@ -28,8 +28,10 @@ export default function Hero() {
       
       <div className='w-full flex justify-between mt-4 lg:mt-6 '>
         <h1 className='text-2xl md:text-2xl lg:text-3xl bg-gradient-to-r from-[#ff49db] to-[#7e5bef] bg-clip-text text-transparent'>Rico.dev</h1>
-        <button className='bg-gradient-to-r from-[#103CE7] to-[#C820EE] via-[#6157] font-montserrat text-white px-2 md:px-3 py-1 md:py-2 rounded-xl neon-purple
+        <a href="#contacts">
+          <button className='bg-gradient-to-r from-[#103CE7] to-[#C820EE] via-[#6157] font-montserrat text-white px-2 md:px-3 py-1 md:py-2 rounded-xl neon-purple
         '>Contact Me</button>
+        </a>
      
       </div>
 
@@ -85,8 +87,8 @@ export default function Hero() {
         </div>
         </div>
          <div className='text-white flex mt-2 lg:mt-0  items-center'>
-                <h1 className=' text-md lg:text-xl font-semibold hidden md:block'>Tech Stack</h1>
-                <p className='hidden md:block ml-2'> | </p>
+                <h1 className=' text-md lg:text-xl font-semibold hidden md:block text-gray-300'>Tech Stack</h1>
+                <p className='hidden text-gray-300 md:block ml-2'> | </p>
                 <div className='ml-3 flex gap-3 max-lg:w-full justify-center items-center'>
                   <img src={Next} alt="" className='h-[30px] lg:h-[50px]'/>
                   <img src={Reactimg} alt="" className='h-[30px] lg:h-[40px]'/>

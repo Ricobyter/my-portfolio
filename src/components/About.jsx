@@ -11,7 +11,7 @@ function About() {
         </div>
         <div className=' '>
           <h1 className='text-5xl  mb-8'>About Me</h1>
-          <div className='tracking-wide leading-relaxed'>
+          <div className='tracking-wide text-gray-300 leading-relaxed'>
             <p className='mb-2'>
               I am a Sophomore year CSE student from IIITDM Jabalpur. I hail from the religious capital of India, Varanasi.
             </p>

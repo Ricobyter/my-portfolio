@@ -1,6 +1,6 @@
 import project1 from '../assets/images/project1.png'
-import project2 from '../assets/images/project2.png'
-import project3 from '../assets/images/project3.png'
+import project2 from '../assets/images/pro2.png'
+import project3 from '../assets/images/pro3.png'
 import React from 'react'
 
 function Projects() {
@@ -9,16 +9,16 @@ function Projects() {
       <h1 className='text-md text-center font-semibold'>Browse My Recent</h1>
       <h1 className='text-5xl mt-2'>Projects</h1>
 
-      <div className='flex gap-10 mt-12'>
-        <div className='h-[420px] w-[320px] border-2 rounded-2xl flex flex-col justify-center items-center'>
-          <img src={project1} alt="" className='object-cover bg-cover rounded-xl w-[250px] h-[65%] border-2 border-white'/>
+      <div className='grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-12'>
+        <div className='h-[390px] px-2 w-[300px] border-2 rounded-2xl flex flex-col justify-center items-center'>
+          <img src={project1} alt="" className='object-cover bg-cover rounded-xl w-[230px] h-[65%] border-2 border-white'/>
            <div className='mt-8 flex justify-around gap-8'>
               <button className='flex py-2 justify-center items-center w-[120px] border-2 rounded-3xl'>Github</button>
               <button className='flex py-2 justify-center items-center w-[120px] border-2 rounded-3xl'>Live Demo</button>
            </div>
 
         </div>
-        <div className='h-[420px] w-[320px] border-2 rounded-2xl flex flex-col justify-center items-center'>
+        <div className='h-[390px] px-2 w-[300px] border-2 rounded-2xl flex flex-col justify-center items-center'>
           <img src={project2} alt="" className='object-cover bg-cover rounded-xl w-[250px] h-[65%] border-2 border-white'/>
            <div className='mt-8 flex justify-around gap-8'>
               <button className='flex py-2 justify-center items-center w-[120px] border-2 rounded-3xl'>Github</button>
@@ -26,7 +26,7 @@ function Projects() {
            </div>
 
         </div>
-        <div className='h-[420px] w-[320px] border-2 rounded-2xl flex flex-col justify-center items-center'>
+        <div className='h-[390px] px-2 w-[300px] border-2 rounded-2xl flex flex-col justify-center items-center'>
           <img src={project3} alt="" className='object-cover bg-cover rounded-xl w-[250px] h-[65%] border-2 border-white'/>
            <div className='mt-8 flex justify-around gap-8'>
               <button className='flex py-2 justify-center items-center w-[120px] border-2 rounded-3xl'>Github</button>
