@@ -29,7 +29,7 @@ export default function Hero() {
       <div className='w-full flex justify-between mt-4 lg:mt-6 '>
         <h1 className='text-2xl md:text-2xl lg:text-3xl bg-gradient-to-r from-[#ff49db] to-[#7e5bef] bg-clip-text text-transparent'>Rico.dev</h1>
         <a href="#contacts">
-          <button className='bg-gradient-to-r from-[#103CE7] to-[#C820EE] via-[#6157] font-montserrat text-white px-2 md:px-3 py-1 md:py-2 rounded-xl neon-purple
+          <button className='bg-gradient-to-r from-[#103CE7] to-[#C820EE]  font-montserrat text-white px-2 md:px-3 py-1 md:py-2 rounded-xl neon-purple
         '>Contact Me</button>
         </a>
      

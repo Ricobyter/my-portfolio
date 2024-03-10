@@ -2,12 +2,17 @@ import React from 'react'
 import hello from '../assets/images/robot.gif'
 import profileimg from '../assets/images/profileimg.jpg'
 
+import ABout from './aboutSkills'
+
 function About() {
   return (
-    <div className='lg:w-[1100px] w-[85vw] text-white'>
-      <div className='flex lg:flex  gap-10 '>
-        <div className='w-[50vw]'>
-          <img src={profileimg} alt="" className='bg-center w-full  object-cover h-[350px]  rounded-lg border-2 neon-purple' />
+    <div className='lg:w-[1100px] w-[90vw] text-white'>
+      <div className='flex-row sm:flex  gap-10 '>
+        <div className='md:w-[50vw] w-full flex justify-between'>
+          <img src={profileimg} alt="" className='bg-center w-[40vw]  object-cover lg:h-[350px] md:h-[270px] sm:h-[220] h-[180px]  rounded-lg border-2 neon-purple' />
+          <div className=' sm:hidden'>
+            <ABout />
+          </div>
         </div>
         <div className=' '>
           <h1 className='text-5xl  mb-8'>About Me</h1>
@@ -30,6 +35,7 @@ function About() {
 
 
       </div>
+      <div className='hidden sm:block'>
       <div className='w-full flex flex-grow justify-between mt-6'>
         <div>
           <div className='flex flex-grow justify-between mb-1 text-white'>
@@ -37,18 +43,18 @@ function About() {
             <p className='capitalize'>Hard Work</p>
             <p className='text-gray-100'>75%</p>
           </div>
-          <div className='bg-gray-700 w-[400px] h-[4px] border-1 rounded-lg my-3'>
+          <div className='bg-gray-700 w-[170px] md:w-[300px] lg:w-[400px] h-[4px] border-1 rounded-lg my-3'>
             <div className='bg-purple-600 h-full w-[75%]'></div>
           </div>
         </div>
         <div>
           <div className='flex justify-between mb-1 text-white'>
 
-            <p className='capitalize'>Front End </p>
-            <p className='text-gray-100'>90%</p>
+            <p className='capitalize'>Team Work </p>
+            <p className='text-gray-100'>86%</p>
           </div>
-          <div className='bg-gray-700 w-[400px] h-[4px] border-1 rounded-lg my-3'>
-            <div className='bg-purple-600 h-full w-[90%]'></div>
+          <div className='bg-gray-700 w-[170px] md:w-[300px] lg:w-[400px] h-[4px] border-1 rounded-lg my-3'>
+            <div className='bg-purple-600 h-full w-[86%]'></div>
           </div>
         </div>
       </div>
@@ -59,20 +65,21 @@ function About() {
             <p className='capitalize'>Creativity</p>
             <p className='text-gray-100'>79%</p>
           </div>
-          <div className='bg-gray-700 w-[400px] h-[4px] border-1 rounded-lg my-3'>
+          <div className='bg-gray-700 w-[160px] sm:w-[230px] md:w-[300px] lg:w-[400px] h-[4px] border-1 rounded-lg my-3'>
             <div className='bg-purple-600 h-full w-[79%]'></div>
           </div>
         </div>
         <div>
           <div className='flex justify-between mb-1 text-white'>
 
-            <p className='capitalize'>Back End</p>
-            <p className='text-gray-100'>70%</p>
+            <p className='capitalize'>Commmunication</p>
+            <p className='text-gray-100'>77%</p>
           </div>
-          <div className='bg-gray-700 w-[400px] h-[4px] border-1 rounded-lg my-3'>
-            <div className='bg-purple-600 h-full w-[70%] rounded-lg border-1'></div>
+          <div className='bg-gray-700 w-[170px] md:w-[300px] lg:w-[400px] h-[4px] border-1 rounded-lg my-3'>
+            <div className='bg-purple-600 h-full w-[77%] rounded-lg border-1'></div>
           </div>
         </div>
+      </div>
       </div>
 
 

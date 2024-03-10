@@ -9,6 +9,13 @@ export default  {
  
   theme: {
     extend: {
+      backgroundSize: {
+        'size-200': '200% 200%',
+    },
+    backgroundPosition: {
+        'pos-0': '0% 0%',
+        'pos-100': '100% 100%',
+    },
       boxShadow:{
         neon: "0 0 5px theme('colors.purple.200'), 0 0 20px theme('colors.purple.700')"
       }
