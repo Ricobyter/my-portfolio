@@ -17,7 +17,7 @@ function App() {
         <About/>
        </section>
        
-       <section id="skills" className='w-[100vw] flex justify-center items-center'>
+       <section id="skills" className='w-[100vw] max-md:h-[100vh] flex justify-center items-center'>
        <Skills/>
        </section>
        <section id="projects" className='w-[100vw] md:h-[100vh] flex justify-center items-center'>
