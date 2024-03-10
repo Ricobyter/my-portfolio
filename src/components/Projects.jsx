@@ -13,24 +13,36 @@ function Projects() {
         <div className='h-[390px] px-2 w-[300px] border-2 rounded-2xl flex flex-col justify-center items-center'>
           <img src={project1} alt="" className='object-cover bg-cover rounded-xl w-[230px] h-[65%] border-2 border-white'/>
            <div className='mt-8 flex justify-around gap-2'>
+            <a href="https://github.com/Ricobyter/YoutubeClone.git">
               <button className='bg-gradient-to-r from-[#103CE7] to-[#C820EE] hover:scale-105 duration-200 flex py-2 justify-center items-center w-[120px] border-2 rounded-3xl'>Github</button>
+            </a>
+            <a href="https://youtube-clone-woad-eight.vercel.app/">
               <button className='bg-gradient-to-r from-[#103CE7] to-[#C820EE] hover:scale-105 duration-200 flex py-2 justify-center items-center w-[120px] border-2 rounded-3xl'>Website</button>
+            </a>
            </div>
 
         </div>
         <div className='h-[390px] px-2 w-[300px] border-2 rounded-2xl flex flex-col justify-center items-center'>
           <img src={project2} alt="" className='object-cover bg-cover rounded-xl w-[250px] h-[65%] border-2 border-white'/>
            <div className='mt-8 flex justify-around gap-2'>
+            <a href="https://github.com/Ricobyter/react-chatbot.git">
               <button className='bg-gradient-to-r from-[#103CE7] to-[#C820EE] hover:scale-105 duration-200 flex py-2 justify-center items-center w-[120px] border-2 rounded-3xl'>Github</button>
+            </a>
+            <a href="https://prismatic-narwhal-de80c0.netlify.app/">
               <button className='flex py-2 justify-center items-center w-[120px] border-2 rounded-3xl bg-gradient-to-r from-[#103CE7] to-[#C820EE] hover:scale-105 duration-200'>Website</button>
+            </a>
            </div>
 
         </div>
         <div className='h-[390px] px-2 w-[300px] border-2 rounded-2xl flex flex-col justify-center items-center'>
           <img src={project3} alt="" className='object-cover bg-cover rounded-xl w-[250px] h-[65%] border-2 border-white'/>
            <div className='mt-8 flex justify-around gap-2'>
+            <a href="https://github.com/Ricobyter/Chat-app.git">
               <button className='bg-gradient-to-r from-[#103CE7] to-[#C820EE] hover:scale-105 duration-200 flex py-2 justify-center items-center w-[120px] border-2 rounded-3xl'>Github</button>
+              </a>
+              <a href="#">
               <button className='bg-gradient-to-r from-[#103CE7] to-[#C820EE] hover:scale-105 duration-200 flex py-2 justify-center items-center w-[120px] border-2 rounded-3xl'>Website</button>
+              </a>
            </div>
 
         </div>

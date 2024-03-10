@@ -13,7 +13,7 @@ function App() {
        <section id = "/"  className='w-[100vw] flex justify-center items-center'>
         <Hero/>
        </section>
-        <section id='about' className='w-[100vw] h-[100vh] flex justify-center items-center'>
+        <section id='about' className='w-[100vw] h-[100vh] max-sm:h-full flex justify-center items-center'>
         <About/>
        </section>
        

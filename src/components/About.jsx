@@ -6,7 +6,8 @@ import ABout from './aboutSkills'
 
 function About() {
   return (
-    <div className='lg:w-[1100px] w-[90vw] text-white'>
+    <div className='lg:w-[1100px] max-sm:py-10 w-[90vw] text-white'>
+      <h1 className='sm:hidden text-center text-4xl mb-8'>About Me</h1>
       <div className='flex-row sm:flex  gap-10 '>
         <div className='md:w-[50vw] w-full flex justify-between'>
           <img src={profileimg} alt="" className='bg-center w-[40vw]  object-cover lg:h-[350px] md:h-[270px] sm:h-[220] h-[180px]  rounded-lg border-2 neon-purple' />
@@ -14,9 +15,9 @@ function About() {
             <ABout />
           </div>
         </div>
-        <div className=' '>
-          <h1 className='text-5xl  mb-8'>About Me</h1>
-          <div className='tracking-wide text-gray-300 leading-relaxed'>
+        <div className=' max-sm:mt-8'>
+          <h1 className='text-5xl max-sm:hidden  mb-8'>About Me</h1>
+          <div className='tracking-wide text-sm sm:text-md text-gray-300 leading-relaxed'>
             <p className='mb-2'>
               I am a Sophomore year CSE student from IIITDM Jabalpur. I hail from the religious capital of India, Varanasi.
             </p>

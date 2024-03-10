@@ -29,7 +29,7 @@ export default function Hero() {
       <div className='w-full flex justify-between mt-4 lg:mt-6 '>
         <h1 className='text-2xl md:text-2xl lg:text-3xl bg-gradient-to-r from-[#ff49db] to-[#7e5bef] bg-clip-text text-transparent'>Rico.dev</h1>
         <a href="#contacts">
-          <button className='bg-gradient-to-r from-[#103CE7] to-[#C820EE]  font-montserrat text-white px-2 md:px-3 py-1 md:py-2 rounded-xl neon-purple
+          <button className='bg-gradient-to-r from-[#103CE7] to-[#C820EE]  font-montserrat text-white px-2 md:px-3 py-1 md:py-2 rounded-xl neon-purple hover:scale-105 duration-200 ease-in-out
         '>Contact Me</button>
         </a>
      
@@ -42,10 +42,10 @@ export default function Hero() {
           <div className=' w-full lg:w-4/5'>
             <h1 className='text-2xl md:text-2xl lg:text-3xl font-semibold mb-1 font-montserrat'>Hello! It's me <span className='bg-gradient-to-l from-[#ff49db] to-purple-500 bg-clip-text text-transparent '> Dhruv Anand Singh. </span>
             </h1>
-            <span className=' text-3xl md:text-3xl lg:text-4xl font-semibold mb-1 font-montserrat'>
+            <span className=' text-xl md:text-3xl lg:text-3xl font-semibold mb-1 font-montserrat'>
               <h1>
               
-            I am a <span className='bg-gradient-to-l from-[#ff49db] to-purple-500 bg-clip-text text-transparent'>
+            I am a <span className=' text-2xl md:text-3xl lg:text-4xl bg-gradient-to-l from-[#ff49db] to-purple-500 bg-clip-text text-transparent'>
                {text}
               </span>
               <span className='text-purple-700'>
