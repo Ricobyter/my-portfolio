@@ -59,7 +59,7 @@ const opacityProgress = useTransform(scrollYProgress, [0, 1], [0.7, 1])
       <h1 className='text-sm text-center font-montserrat '>Get in Touch </h1>
       <h1 className='text-5xl text-center'>Contact Me</h1>
       </div>
-      <motion.div className='pt-20 flex lg:flex-row-reverse flex-col justify-around'
+      <motion.div className='pt-20 flex lg:flex-row-reverse flex-col '
          ref={ref}
          style={{
             scale:scaleProgress,
@@ -79,9 +79,6 @@ const opacityProgress = useTransform(scrollYProgress, [0, 1], [0.7, 1])
             <input type="submit" value="Send" className='bg-gradient-to-r from-[#103CE7] to-[#C820EE] mt-1  text-white rounded-xl py-2 cursor-pointer'/>
           </form>
         </div>
-        {/* <div className='hidden md:block  justify-center items-center'>
-          <img src={Sticker} alt="Sticker" className='h-[400px]'/>
-        </div> */}
       </motion.div>
       <ToastContainer 
       closeOnClick

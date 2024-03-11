@@ -29,8 +29,11 @@ function Skills() {
   return (
     <div>
       <div>
-      <div className='flex gap-2 mb-20'>
-      <h1 className='text-4xl text-center font-montserrat text-white'>My Skills </h1>
+      <div className='flex gap-2 mb-20 text-white'>
+        <div className='w-full '>
+          <h1 className='text-center text-sm mb-2'>Learn more about</h1>
+      <h1 className='text-4xl font-thin mb-2 text-center text-white'>My Skills </h1>
+        </div>
 
       </div>
         <Tabs>

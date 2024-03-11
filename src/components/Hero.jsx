@@ -67,7 +67,7 @@ export default function Hero() {
     loop: {},
   })
   return (
-    <div className='min-h-screen w-[90vw] lg:w-[1100px] tracking-wider text-white '>
+    <div className='min-h-screen w-[90vw] lg:w-[1100px] tracking-wider text-white h-full overflow-hidden'>
       <div className='flex flex-col '>
 
       
