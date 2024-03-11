@@ -3,8 +3,20 @@ import emailjs from '@emailjs/browser';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Sticker from '../assets/images/giphy.gif';
+import {motion, useScroll, useTransform} from 'framer-motion'
+
+
 
 function Contact() {
+  const ref = useRef(null)
+const {scrollYProgress} = useScroll({
+  target: ref,
+  offset: ["0 1", "1.33 1"]
+})
+
+const scaleProgress = useTransform(scrollYProgress, [0, 1], [0.8, 1])
+const opacityProgress = useTransform(scrollYProgress, [0, 1], [0.7, 1])
+
   const form = useRef();
   const [formValues, setFormValues] = useState({
     name: '',
@@ -41,13 +53,21 @@ function Contact() {
   };
 
   return (
-    <div className=' mt-20 text-white w-[90vw] lg:w-[1150px] h-[100vh] lg:h-[100vh]'>
+    <div className=' flex flex-col justify-center items-center text-white w-[90vw] lg:w-[1150px] h-[100vh] '>
       <div className='flex flex-col gap-2 '>
 
-      <h1 className='text-md text-center font-montserrat'>Get in Touch </h1>
+      <h1 className='text-sm text-center font-montserrat '>Get in Touch </h1>
       <h1 className='text-5xl text-center'>Contact Me</h1>
       </div>
-      <div className='mt-20 flex lg:flex-row-reverse flex-col justify-around'>
+      <motion.div className='pt-20 flex lg:flex-row-reverse flex-col justify-around'
+         ref={ref}
+         style={{
+            scale:scaleProgress,
+            opacity:opacityProgress
+         }}
+         viewport={{
+          once: true
+         }}>
         <div className='max-md:w-full max-md:flex max-md:justify-center max-md:items-center '>
           <form ref={form} onSubmit={sendEmail} className='flex flex-col gap-2 w-[80vw] lg:w-[35vw]'>
             <label>Name</label>
@@ -59,10 +79,10 @@ function Contact() {
             <input type="submit" value="Send" className='bg-gradient-to-r from-[#103CE7] to-[#C820EE] mt-1  text-white rounded-xl py-2 cursor-pointer'/>
           </form>
         </div>
-        <div className='hidden md:block  justify-center items-center'>
+        {/* <div className='hidden md:block  justify-center items-center'>
           <img src={Sticker} alt="Sticker" className='h-[400px]'/>
-        </div>
-      </div>
+        </div> */}
+      </motion.div>
       <ToastContainer 
       closeOnClick
       autoClose={true}/>

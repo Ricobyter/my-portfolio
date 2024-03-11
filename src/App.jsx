@@ -6,11 +6,12 @@ import Projects from './components/Projects'
 import Skills from './components/Skills'
 
 function App() {
+  
   return (
     <main className='bg-[#0d1117]   font-Poppins'>
       {/* bg-[#0d1117] */}
        <Nav />
-       <section id = "/"  className='w-[100vw] flex justify-center items-center'>
+       <section id = "/"  className='w-[100vw] flex justify-center items-center relative'>
         <Hero/>
        </section>
         <section id='about' className='w-[100vw] h-[100vh] max-sm:h-full flex justify-center items-center'>
