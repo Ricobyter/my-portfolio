@@ -14,20 +14,25 @@ function Projects() {
   const scaleProgress = useTransform(scrollYProgress, [0, 1], [0.7, 1])
   const opacityProgress = useTransform(scrollYProgress, [0, 1], [0.7, 1])
   return (
-    <div className='py-10 text-white w-[90vw] h-full lg:w-[1100px] flex tracking-wide flex-col items-center justify-center' >
-      <h1 className='text-sm text-center '>Browse My Recent</h1>
-      <h1 className='text-5xl mt-2'>Projects</h1>
+    <div className='py-10 text-white w-[90vw] h-full lg:w-[1100px] flex tracking-wide flex-col items-center justify-center max-sm:mt-20' >
+      <motion.div
+        ref={ref}
+        style={{
+          scale: scaleProgress,
+          opacity: opacityProgress
+        }}
+      >
+        <motion.h1 className='text-sm text-center '>Browse My Recent</motion.h1>
+        <motion.h1 className='text-5xl mt-2'>Projects</motion.h1>
+      </motion.div>
 
-      <div className='grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-12'>
+      <div className='grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-6 lg:mt-12'>
         <motion.div
           className='h-[390px] px-2 w-[300px] border-2 rounded-2xl flex flex-col justify-center items-center'
           ref={ref}
           style={{
             scale: scaleProgress,
             opacity: opacityProgress
-          }}
-          viewport={{
-            once: true
           }}>
           <img src={project1} alt="" className='object-cover bg-cover rounded-xl w-[230px] h-[65%] border-2 border-white' />
           <motion.div className='mt-8 flex justify-around gap-2'>
@@ -48,7 +53,7 @@ function Projects() {
           }}
           viewport={{
             once: true
-           }}>
+          }}>
           <img src={project2} alt="" className='object-cover bg-cover rounded-xl w-[250px] h-[65%] border-2 border-white' />
           <div className='mt-8 flex justify-around gap-2'>
             <a href="https://github.com/Ricobyter/react-chatbot.git">
@@ -68,7 +73,7 @@ function Projects() {
           }}
           viewport={{
             once: true
-           }}>
+          }}>
           <img src={project3} alt="" className='object-cover bg-cover rounded-xl w-[250px] h-[65%] border-2 border-white' />
           <div className='mt-8 flex justify-around gap-2'>
             <a href="https://github.com/Ricobyter/Chat-app.git">

@@ -3,6 +3,7 @@ import hello from '../assets/images/robot.gif'
 import profileimg from '../assets/images/profileimg.jpg'
 
 import ABout from './aboutSkills'
+import Reveal from './Reveal.tsx'
 
 function About() {
   return (
@@ -21,10 +22,13 @@ function About() {
         <div className=' max-sm:mt-8'>
         {/* <h1 className='max-sm:hidden text-sm ml-2'>Get to Know More</h1>
           <h1 className='text-5xl max-sm:hidden  mb-8'>About Me</h1> */}
+          
           <div className='tracking-wide text-sm sm:text-md text-gray-300 leading-relaxed'>
+            <Reveal>
             <p className='mb-2'>
             I'm a sophomore in Computer Science and Engineering at IIITDM Jabalpur, proudly hailing from the spiritual hub of India, Varanasi.
             </p>
+            </Reveal>
             <p className='mb-2'>
             Passionate about programming, I thrive on the thrill of learning new technologies. With a knack for quick grasping and a penchant for teamwork, I'm always eager to explore fresh ideas and embark on exciting projects.
             </p>
