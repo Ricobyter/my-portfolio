@@ -1,21 +1,26 @@
-import React from 'react'
-import hello from '../assets/images/robot.gif'
+import React, { useEffect } from 'react'
 import profileimg from '../assets/images/profileimg.jpg'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 import ABout from './aboutSkills'
-import Reveal from './Reveal.tsx'
 
 function About() {
+  useEffect(() => {
+   AOS.init({duration:1000}),
+   AOS.refresh()
+  }, [])
+
   return (
-    <div className='lg:w-[1100px] max-sm:py-10 w-[90vw] text-white'>
-      <div>
+    <div className='lg:w-[1100px] max-sm:py-10 w-[90vw] text-white' data-aos-once='true'>
+      <div data-aos="fade-up" >
         <h1 className='text-sm text-center'>Get to Know More</h1>
       <h1 className=' text-center text-4xl mb-8'>About Me</h1>
       </div>
       <div className='flex-row sm:flex  gap-10 '>
-        <div className='md:w-[50vw] w-full flex justify-between'>
+        <div className='md:w-[50vw] w-full flex justify-between' data-aos='fade-right'>
           <img src={profileimg} alt="" className='bg-center w-[40vw]  object-cover lg:h-[340px] md:h-[270px] sm:h-[220] h-[180px]  rounded-lg border-2 neon-purple' />
-          <div className=' sm:hidden'>
+          <div className=' sm:hidden' data-aos='fade-left'>
             <ABout />
           </div>
         </div>
@@ -23,12 +28,11 @@ function About() {
         {/* <h1 className='max-sm:hidden text-sm ml-2'>Get to Know More</h1>
           <h1 className='text-5xl max-sm:hidden  mb-8'>About Me</h1> */}
           
-          <div className='tracking-wide text-sm sm:text-md text-gray-300 leading-relaxed'>
-            <Reveal>
+          <div className='tracking-wide text-sm sm:text-md text-gray-300 leading-relaxed' data-aos='fade-left'>
             <p className='mb-2'>
             I'm a sophomore in Computer Science and Engineering at IIITDM Jabalpur, proudly hailing from the spiritual hub of India, Varanasi.
             </p>
-            </Reveal>
+
             <p className='mb-2'>
             Passionate about programming, I thrive on the thrill of learning new technologies. With a knack for quick grasping and a penchant for teamwork, I'm always eager to explore fresh ideas and embark on exciting projects.
             </p>
@@ -62,7 +66,7 @@ function About() {
 
 
       </div>
-      <div className='hidden sm:block'>
+      <div className='hidden sm:block' data-aos='fade-up'>
       <div className='w-full flex flex-grow justify-between mt-6'>
         <div>
           <div className='flex flex-grow justify-between mb-1 text-white'>
@@ -86,7 +90,7 @@ function About() {
         </div>
       </div>
       <div className='w-full flex flex-grow justify-between'>
-        <div>
+        <div >
           <div className='flex justify-between mb-1 text-white'>
 
             <p className='capitalize'>Creativity</p>

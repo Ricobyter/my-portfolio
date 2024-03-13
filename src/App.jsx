@@ -8,7 +8,7 @@ import Skills from './components/Skills'
 function App() {
   
   return (
-    <main className='bg-[#0d1117]   font-Poppins w-[100vw] overflow-hidden'>
+    <main className='bg-[#0d1117]   font-Poppins w-[100vw] relative'>
       {/* bg-[#0d1117] */}
        <Nav />
        <section id = "/"  className='w-[100vw] flex justify-center items-center relative'>

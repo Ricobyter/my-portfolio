@@ -4,6 +4,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Sticker from '../assets/images/giphy.gif';
 import {motion, useScroll, useTransform} from 'framer-motion'
+import Slide from './Slide';
 
 
 
@@ -55,10 +56,10 @@ const opacityProgress = useTransform(scrollYProgress, [0, 1], [0.7, 1])
   return (
     <div className=' flex flex-col justify-center items-center text-white w-[90vw] lg:w-[1150px] h-[100vh] '>
       <div className='flex flex-col gap-2 '>
-
-      <h1 className='text-sm text-center font-montserrat '>Get in Touch </h1>
+      <h1 className='text-sm text-center font-montserrat text-white'>Get in Touch </h1>
       <h1 className='text-5xl text-center'>Contact Me</h1>
       </div>
+
       <motion.div className='pt-20 flex lg:flex-row-reverse flex-col '
          ref={ref}
          style={{
