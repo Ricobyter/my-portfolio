@@ -7,7 +7,7 @@ import ABout from './aboutSkills'
 
 function About() {
   useEffect(() => {
-   AOS.init({duration:1000}),
+   AOS.init({duration:2000}),
    AOS.refresh()
   }, [])
 
@@ -15,7 +15,7 @@ function About() {
     <div className='lg:w-[1100px] max-sm:py-10 w-[90vw] text-white' data-aos-once='true'>
       <div data-aos="fade-up" >
         <h1 className='text-sm text-center'>Get to Know More</h1>
-      <h1 className=' text-center text-4xl mb-8'>About Me</h1>
+      <h1 className=' text-center text-3xl md:text-4xl lg:text-5xl mb-8'>About Me</h1>
       </div>
       <div className='flex-row sm:flex  gap-10 '>
         <div className='md:w-[50vw] w-full flex justify-between' data-aos='fade-right'>

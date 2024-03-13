@@ -1,21 +1,25 @@
 import project1 from '../assets/images/project1.png'
 import project2 from '../assets/images/pro2.png'
 import project3 from '../assets/images/pro3.png'
-import React, { useRef } from 'react'
-import { motion, useScroll, useTransform } from 'framer-motion'
+import React, { useEffect } from 'react'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 
 function Projects() {
+  useEffect(() => {
+    AOS.init({duration:1000}),
+    AOS.refresh()
+   }, [])
 
   return (
-    <div className='py-10 text-white w-[90vw] h-full lg:w-[1100px] flex tracking-wide flex-col items-center justify-center max-sm:mt-20' >
-      < div
-
+    <div className='py-10 text-white w-[90vw] h-full lg:w-[1100px] flex tracking-wide flex-col items-center justify-center max-sm:mt-20'  data-aos-once="true">
+      < div data-aos='zoom-in'
       >
         < h1 className='text-sm text-center '>Browse My Recent</ h1>
         < h1 className='text-5xl mt-2'>Projects</ h1>
       </ div>
 
-      <div className='grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-6 lg:mt-12'>
+      <div className='grid gap-10 grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-6 lg:mt-12' data-aos='fade-up' >
         < div
           className='h-[390px] px-2 w-[300px] border-2 rounded-2xl flex flex-col justify-center items-center'
           >
