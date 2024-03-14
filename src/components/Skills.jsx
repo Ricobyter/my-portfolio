@@ -51,7 +51,6 @@ function Skills() {
               <div className='border-b-4 w-[38vw] md:w-[27vw] lg:w-[20vw] bg-[#111826] mt-4 h-[18vh] md:h-[20vh] lg:h-[240px]  shadow-sm border-[#1c9cec] rounded-lg flex flex-col justify-center items-center'>
                 <img src={Typescript} alt="" className='h-[50px]' />
                 <h1 className='mt-2 lg:text-xl md:text-lg text-md font-semibold'>Typescipt</h1>
-
               </div>
 
               <div className='border-b-4 w-[38vw] md:w-[27vw] lg:w-[20vw] bg-[#111826] mt-4 h-[18vh] md:h-[20vh] lg:h-[240px]  shadow-sm border-indigo-600 rounded-lg flex flex-col justify-center items-center'>

@@ -1,3 +1,5 @@
-# my-portfolio
+# My-portfolio
 
-This is my personal portfolio. It is made with the help of ReactJS and TailwindCSS
+This is my personal portfolio. Check it here : https://dhruvanandsinghportfolio.netlify.app/
+
+# Stack Used
