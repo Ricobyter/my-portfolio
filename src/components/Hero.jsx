@@ -127,7 +127,7 @@ export default function Hero() {
 
         <motion.div variants={slideVariant} initial="initial" animate="animate"
         >
-          <motion.div variants={slideVariant} className="blob  neon-purple max-md:w-[200px] max-md:h-[200px] bg-[url('src/assets/images/linkednprofile.jpeg')]" >
+          <motion.div variants={slideVariant} className="blob  neon-purple max-md:w-[200px] max-md:h-[200px] bg-[url('src/assets/images/myImage.png')]" >
           {/*  */}
 
           </motion.div>
