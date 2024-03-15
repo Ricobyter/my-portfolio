@@ -1,5 +1,5 @@
 # My-portfolio
 
-This is my personal portfolio. Check it here : https://dhruvanandsinghportfolio.netlify.app/
+This is my personal portfolio.
 
 # Techstack Used
