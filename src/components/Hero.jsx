@@ -11,6 +11,7 @@ import NodeJs from '../assets/images/nodejs.svg'
 import MongoDB from '../assets/images/mongodb.svg'
 import Firebase from '../assets/images/firebase.svg'
 import Typescript from '../assets/images/typescript.png'
+import myImage from '../assets/images/myImage.png'
 import { useTypewriter, Cursor } from 'react-simple-typewriter'
 import { motion } from 'framer-motion'
 
@@ -127,9 +128,7 @@ export default function Hero() {
 
         <motion.div variants={slideVariant} initial="initial" animate="animate"
         >
-          <motion.div variants={slideVariant} className="blob  neon-purple max-md:w-[200px] max-md:h-[200px] bg-[url('src/assets/images/myImage.png')]" >
-          {/*  */}
-
+          <motion.div variants={slideVariant} className="blob  neon-purple max-md:w-[200px] max-md:h-[200px] bg-[url('../assets/images/myImage.png')]" >
           </motion.div>
 
         </motion.div>

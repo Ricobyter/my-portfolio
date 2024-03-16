@@ -25,10 +25,7 @@ function About() {
           </div>
         </div>
         <div className=' max-sm:mt-8'>
-        {/* <h1 className='max-sm:hidden text-sm ml-2'>Get to Know More</h1>
-          <h1 className='text-5xl max-sm:hidden  mb-8'>About Me</h1> */}
-          
-          <div className='tracking-wide text-sm sm:text-md text-gray-300 leading-relaxed' data-aos='fade-left'>
+          <div className='tracking-wide text-sm sm:text-md text-gray-300 leading-relaxed' data-aos='fade-up'>
             <p className='mb-2'>
             I'm a sophomore in Computer Science and Engineering at IIITDM Jabalpur, proudly hailing from the spiritual hub of India, Varanasi.
             </p>
