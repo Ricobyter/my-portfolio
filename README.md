@@ -1,9 +1,20 @@
-## Personal Portfolio Website
+# Personal Portfolio Website
 
-**Welcome to my personal portfolio website! This website showcases my projects, skills, and experiences. It's built using React, TailwindCSS, AOS, and Framer Motion to create a modern and visually appealing user experience. The smooth scrolling feature enhances navigation throughout the site.**
+This is a personal portfolio website built using React, TailwindCSS, AOS, and Framer Motion for animation, with the additional feature of smooth scrolling.
 
-# Tech Stack Used:
-**React:** A JavaScript library for building user interfaces, allowing for efficient and dynamic rendering of components.
-**TailwindCSS:** A utility-first CSS framework that provides pre-designed components and utilities for rapid development and customization.
-**AOS (Animate On Scroll):** A library to animate elements on scroll, adding engaging and interactive animations to the website.
-**Framer Motion:** A library for creating fluid animations and interactions in React applications, enhancing the user experience with smooth transitions and effects.
+## Technologies Used
+
+- **React**: JavaScript library for building user interfaces.
+- **TailwindCSS**: Utility-first CSS framework for building custom designs quickly.
+- **AOS**: Animate On Scroll library for adding animations to elements as they enter the viewport.
+- **Framer Motion**: Library for creating fluid animations and interactions in React.
+- **Smooth Scrolling**: Feature to enable smooth scrolling navigation throughout the website.
+
+## Features
+
+- **Responsive Design**: The website is designed to be fully responsive, ensuring optimal viewing experience across devices.
+- **Animated Transitions**: Framer Motion is used to create smooth animations and transitions between pages and elements.
+- **Dynamic Content**: The portfolio website dynamically showcases my projects, skills, and other relevant information.
+- **Smooth Scrolling**: Allows users to navigate through different sections of the website seamlessly.
+
+
