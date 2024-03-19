@@ -51,8 +51,8 @@ function About() {
                 <h1>dhruvanandsingh2004@gmail.com</h1>
               </div>
               <div className='flex flex-col justify-between items-center hap-2'>
-                <h1 className='text-lg  text-purple-600 font-semibold'>Place</h1>
-                <h1>Varanasi, UP</h1>
+                <h1 className='text-lg  text-purple-600 font-semibold'>Education</h1>
+                <h1>IIITDM Jabalpur</h1>
               </div>
               </div>
 

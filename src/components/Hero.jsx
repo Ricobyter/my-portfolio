@@ -11,7 +11,6 @@ import NodeJs from '../assets/images/nodejs.svg'
 import MongoDB from '../assets/images/mongodb.svg'
 import Firebase from '../assets/images/firebase.svg'
 import Typescript from '../assets/images/typescript.png'
-import myImage from '../assets/images/myImage.png'
 import { useTypewriter, Cursor } from 'react-simple-typewriter'
 import { motion } from 'framer-motion'
 
@@ -43,7 +42,6 @@ export default function Hero() {
       opacity: 1,
       transition: {
         duration: 2,
-        // staggerChildren: 0.1
       }
     }
   }
