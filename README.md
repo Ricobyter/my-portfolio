@@ -1,6 +1,6 @@
 # Personal Portfolio Website
 
-This is a personal portfolio website built using React, TailwindCSS, AOS, and Framer Motion for animation, with the additional feature of smooth scrolling.
+This is a personal portfolio website built using React, TailwindCSS, AOS, and Framer Motion for animation, with the additional feature of smooth scrolling. Check it here : https://dhruvanandportfolio.netlify.app/
 
 ## Technologies Used
 
