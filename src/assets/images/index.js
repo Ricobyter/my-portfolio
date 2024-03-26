@@ -16,6 +16,7 @@ import git from './git.svg'
 import netlify from './netlify.svg'
 import vercel from './vercelr.png'
 import jupyter from './jupyter.png'
+import myImage from './myImage.png'
 
 export {
     typescript,
@@ -35,5 +36,6 @@ export {
     git,
     netlify,
     vercel,
-    jupyter
+    jupyter,
+    myImage
 }

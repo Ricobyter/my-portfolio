@@ -1,6 +1,7 @@
 import React from 'react'
 import '../assets/css/profile.css'
 import Nav from './Nav'
+import myImage from '../assets/images/myImage.png'
 import gmail from '../assets/images/gmail.svg'
 import linkedn from '../assets/images/linkedn.svg'
 import github from '../assets/images/github.svg'
@@ -126,7 +127,8 @@ export default function Hero() {
 
         <motion.div variants={slideVariant} initial="initial" animate="animate"
         >
-          <motion.div variants={slideVariant} className="blob  neon-purple max-md:w-[200px] max-md:h-[200px] bg-[url('../assets/images/myImage.png')]" >
+          <motion.div variants={slideVariant} className="h-[270px] w-[270px] max-md:w-[200px] max-md:h-[200px]" >
+            <img src={myImage} alt="fgf" variants={slideVariant} className='h-full w-full blob object-cover neon-purple ' />
           </motion.div>
 
         </motion.div>
