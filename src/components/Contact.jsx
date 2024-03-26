@@ -33,7 +33,7 @@ function Contact() {
   const sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm('service_cpeiaiv', 'template_1oop11r', form.current, '8bzCTOWR7dwKClKgd')
+    emailjs.sendForm('service_cpeiaiv', 'template_1oop11r', form.current, 'vPuDYoBA3vxnOuNtF')
       .then((result) => {
         console.log(result.text);
         toast.success('Message successfully sent', toastOptions);
