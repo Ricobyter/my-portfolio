@@ -41,7 +41,7 @@ function Contact() {
       })
       .catch((error) => {
         console.error(error.text);
-        toast.error('An error occurred while sending the message');
+        toast.error('An error occurred while sending the message', toastOptions);
       });
   };
 
