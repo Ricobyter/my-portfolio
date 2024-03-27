@@ -11,6 +11,7 @@ function App() {
     <main className='bg-[#0d1117]   font-Poppins w-[100vw] relative'>
       {/* bg-[#0d1117] */}
        <Nav />
+       {/* console.log(import.meta.env.PUBLIC_KEY) */}
        <section id = "/"  className='w-[100vw] flex justify-center items-center relative'>
         <Hero/>
        </section>

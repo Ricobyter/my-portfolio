@@ -1,3 +1,5 @@
+// import dotenv from 'dotenv'  
+// require(dotenv).config();
 import React, { useRef, useState, useEffect } from 'react';
 import emailjs from '@emailjs/browser';
 import { ToastContainer, toast } from 'react-toastify';
@@ -32,9 +34,9 @@ function Contact() {
 
   const sendEmail = (e) => {
     e.preventDefault();
-
-    emailjs.sendForm('service_cpeiaiv', 'template_1oop11r', form.current, 'vPuDYoBA3vxnOuNtF')
-      .then((result) => {
+    
+    emailjs.sendForm(import.meta.env.VITE_SERVICE_ID, import.meta.env.VITE_TEMPLATE_ID, form.current,  import.meta.env.VITE_PUBLIC_KEY)
+    .then((result) => {
         console.log(result.text);
         toast.success('Message successfully sent', toastOptions);
         setFormValues({ name: '', email: '', message: '' }); // Reset form values
