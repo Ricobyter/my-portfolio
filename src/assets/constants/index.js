@@ -1,4 +1,4 @@
-import { css, express, figma, firebase, git, javascript, jupyter, materialui, mongodb, mysql, netlify, nodejs, php, reactimg, tailwindcss, typescript, vercel, vscode } from "../images/index.js";
+import { chatapp, css, express, figma, firebase, git, javascript, jupyter, materialui, mongodb, mysql, netlify, nodejs, php, reactimg, tailwindcss, typescript, vercel, vscode } from "../images/index.js";
 
 
 const fskills = [
@@ -102,4 +102,42 @@ const oskills = [
     }
 ]
 
-export {fskills, bskills, oskills}
+const projects = [
+    {
+        title: "Realtime-ChatApp",
+        img: chatapp,
+        description: "A chat application that lets you have realtime communication with your friends and anyone around the world. FOr user security, there is also end-to-end encryption",
+        tech: ['ReactJS', 'NodeJS', 'MongoDB', 'Socket.io', 'React-Styled-Elements', 'React-Toastify', 'CryptoJS'],
+    },
+    {
+        title: "Realtime-Youtube Clone",
+        img: chatapp,
+        description: "A chat application that lets you have realtime communication with your friends and anyone around the world. FOr user security, there is also end-to-end encryption",
+        tech: ['ReactJS', 'TaillWindCSS', 'Youtube-API','React-Redux', 'Netlify'],
+    },
+    {
+        title: "React-ChatBot",
+        img: chatapp,
+        description: "A chat application that lets you have realtime communication with your friends and anyone around the world. FOr user security, there is also end-to-end encryption",
+        tech: ['ReactJS', 'Chat-Ui-Kit', 'TailWindCSS', 'Netlify', 'Chatbot'],
+    },
+    {
+        title: "Snippet Generator",
+        img: chatapp,
+        description: "A chat application that lets you have realtime communication with your friends and anyone around the world. FOr user security, there is also end-to-end encryption",
+        tech: ['ReactJS', 'TailwindCSS', 'React Hooks'],
+    },
+    {
+        title: "QuizMantra",
+        img: chatapp,
+        description: "A chat application that lets you have realtime communication with your friends and anyone around the world. FOr user security, there is also end-to-end encryption",
+        tech: ['ReactJS', 'Typescript', 'React Hooks', 'TailwindCSS'],
+    },
+    {
+        title: "Solar System",
+        img: chatapp,
+        description: "A chat application that lets you have realtime communication with your friends and anyone around the world. FOr user security, there is also end-to-end encryption",
+        tech: ['ThreeJS', '3-D Project', 'Responsive'],
+    }
+]
+export {fskills, bskills, oskills, projects}

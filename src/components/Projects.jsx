@@ -4,6 +4,7 @@ import project3 from '../assets/images/pro3.png'
 import React, { useEffect } from 'react'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
+import { Link } from 'react-router-dom'
 
 function Projects() {
   useEffect(() => {
@@ -29,7 +30,7 @@ function Projects() {
               <button className='bg-gradient-to-r from-[#103CE7] to-[#C820EE] hover:scale-105 duration-200 flex py-2 justify-center items-center w-[120px] border-2 rounded-3xl'>Github</button>
             </a>
             <a href="https://youtube-clone-woad-eight.vercel.app/">
-              <button className='bg-gradient-to-r from-[#103CE7] to-[#C820EE] hover:scale-105 duration-200 flex py-2 justify-center items-center w-[120px] border-2 rounded-3xl'>Website</button>
+              <button className='bg-gradient-to-r from-[#103CE7] to-[#C820EE] hover:scale-105 duration-200 flex py-2 justify-center items-center w-[120px] border-2 rounded-3xl'>Demo</button>
             </a>
           </ div>
 
@@ -42,7 +43,7 @@ function Projects() {
               <button className='bg-gradient-to-r from-[#103CE7] to-[#C820EE] hover:scale-105 duration-200 flex py-2 justify-center items-center w-[120px] border-2 rounded-3xl'>Github</button>
             </a>
             <a href="https://prismatic-narwhal-de80c0.netlify.app/">
-              <button className='flex py-2 justify-center items-center w-[120px] border-2 rounded-3xl bg-gradient-to-r from-[#103CE7] to-[#C820EE] hover:scale-105 duration-200'>Website</button>
+              <button className='flex py-2 justify-center items-center w-[120px] border-2 rounded-3xl bg-gradient-to-r from-[#103CE7] to-[#C820EE] hover:scale-105 duration-200'>Demo</button>
             </a>
           </div>
 
@@ -55,11 +56,16 @@ function Projects() {
               <button className='bg-gradient-to-r from-[#103CE7] to-[#C820EE] hover:scale-105 duration-200 flex py-2 justify-center items-center w-[120px] border-2 rounded-3xl'>Github</button>
             </a>
             <a href="#">
-              <button className='bg-gradient-to-r from-[#103CE7] to-[#C820EE] hover:scale-105 duration-200 flex py-2 justify-center items-center w-[120px] border-2 rounded-3xl'>Website</button>
+              <button className='bg-gradient-to-r from-[#103CE7] to-[#C820EE] hover:scale-105 duration-200 flex py-2 justify-center items-center w-[120px] border-2 rounded-3xl'>Demo</button>
             </a>
           </div>
 
         </ div>
+      </div>
+      <div className='mt-8'>
+        <Link to= "/projects">
+        <button className='bg-gradient-to-r from-[#103CE7] to-[#C820EE] hover:from-[#C820EE] hover:to-[#103CE7] hover:scale-105 duration-200 text-xl px-4  flex py-2 justify-center items-center  rounded-xl'>More Projects</button>
+        </Link>
       </div>
 
     </div>

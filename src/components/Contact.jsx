@@ -50,11 +50,12 @@ function Contact() {
   return (
     <div className=' flex flex-col justify-center items-center text-white w-[90vw] lg:w-[1150px] h-[100vh] ' data-aos='once'>
       <div className='flex flex-col gap-2 ' data-aos='zoom-in'>
+        
       <h1 className='text-sm text-center font-montserrat text-white'>Get in Touch </h1>
       <h1 className='text-3xl md:text-4xl lg:text-5xl text-center'>Contact Me</h1>
       </div>
 
-      < div className='pt-20 flex lg:flex-row-reverse flex-col ' data-aos='fade-up'>
+      < div className='pt-12 flex lg:flex-row-reverse flex-col ' data-aos='fade-up'>
         <div className='max-md:w-full max-md:flex max-md:justify-center max-md:items-center '>
           <form ref={form} onSubmit={sendEmail} className='flex flex-col gap-2 w-[80vw] lg:w-[35vw]'>
             <label className= "text-md md:text-lg lg:text-xl">Name</label>

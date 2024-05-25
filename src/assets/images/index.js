@@ -17,6 +17,7 @@ import netlify from './netlify.svg'
 import vercel from './vercelr.png'
 import jupyter from './jupyter.png'
 import myImage from './myImage.png'
+import chatapp from './chatapp.png'
 
 export {
     typescript,
@@ -37,5 +38,6 @@ export {
     netlify,
     vercel,
     jupyter,
-    myImage
+    myImage, 
+    chatapp
 }
