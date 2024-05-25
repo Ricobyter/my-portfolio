@@ -106,37 +106,37 @@ const projects = [
     {
         title: "Realtime-ChatApp",
         img: chatapp,
-        description: "A chat application that lets you have realtime communication with your friends and anyone around the world. FOr user security, there is also end-to-end encryption",
+        description: "Experience seamless real-time communication with MERN Chat App, a robust and feature-rich chat application built with MongoDB, Express, React, and Node.js.",
         tech: ['ReactJS', 'NodeJS', 'MongoDB', 'Socket.io', 'React-Styled-Elements', 'React-Toastify', 'CryptoJS'],
     },
     {
         title: "Realtime-Youtube Clone",
         img: chatapp,
-        description: "A chat application that lets you have realtime communication with your friends and anyone around the world. FOr user security, there is also end-to-end encryption",
+        description: "Discover and enjoy videos with YouTube Clone, a fully-functional video streaming platform that replicates the core features of YouTube.",
         tech: ['ReactJS', 'TaillWindCSS', 'Youtube-API','React-Redux', 'Netlify'],
     },
     {
         title: "React-ChatBot",
         img: chatapp,
-        description: "A chat application that lets you have realtime communication with your friends and anyone around the world. FOr user security, there is also end-to-end encryption",
+        description: " Enhance customer interactions with Chatbot, an intelligent virtual assistant made with the help of OpenAI designed to provide instant support and streamline communication",
         tech: ['ReactJS', 'Chat-Ui-Kit', 'TailWindCSS', 'Netlify', 'Chatbot'],
     },
     {
         title: "Snippet Generator",
         img: chatapp,
-        description: "A chat application that lets you have realtime communication with your friends and anyone around the world. FOr user security, there is also end-to-end encryption",
+        description: "Quickly create and manage reusable code snippets with VsCode Snippet Generator, the ultimate tool for developers to boost productivity and efficiency",
         tech: ['ReactJS', 'TailwindCSS', 'React Hooks'],
     },
     {
         title: "QuizMantra",
         img: chatapp,
-        description: "A chat application that lets you have realtime communication with your friends and anyone around the world. FOr user security, there is also end-to-end encryption",
+        description: " Test your knowledge and have fun with QuizMantra, an engaging platform offering a variety of quizzes on numerous topics for all ages.",
         tech: ['ReactJS', 'Typescript', 'React Hooks', 'TailwindCSS'],
     },
     {
         title: "Solar System",
         img: chatapp,
-        description: "A chat application that lets you have realtime communication with your friends and anyone around the world. FOr user security, there is also end-to-end encryption",
+        description: " Explore the cosmos with 3D Solar System, an interactive model of our solar system created using Three.js, bringing space to life in stunning detail.",
         tech: ['ThreeJS', '3-D Project', 'Responsive'],
     }
 ]
