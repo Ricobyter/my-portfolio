@@ -19,7 +19,7 @@ export default function MoreProjects() {
         </p>
       </section>
       <main className="flex justify-center items-center mt-10">
-        <div className="w-[60vw] grid grid-cols-2 justify-between gap-8">
+        <div className="w-[90vw] md:w-[60vw] grid grid-cols-1 md:grid-cols-2 justify-between gap-8">
           {projects.map((project) => {
             return (
               <ProjectCard

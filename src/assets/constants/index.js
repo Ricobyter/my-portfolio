@@ -134,6 +134,12 @@ const projects = [
         tech: ['ReactJS', 'Typescript', 'React Hooks', 'TailwindCSS'],
     },
     {
+        title: "SnakeGame",
+        img: chatapp,
+        description: " Test your knowledge and have fun with QuizMantra, an engaging platform offering a variety of quizzes on numerous topics for all ages.",
+        tech: ['HTML', 'CSS', 'VanilaJS'],
+    },
+    {
         title: "Solar System",
         img: chatapp,
         description: " Explore the cosmos with 3D Solar System, an interactive model of our solar system created using Three.js, bringing space to life in stunning detail.",
